@@ -67,5 +67,12 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type:
+
+
 deploy:
-  type:
+    type: git
+    repository: git@github.com:YXJwinnie/YXJwinnie.github.io.git
+    branch: master
+
